@@ -1,0 +1,16 @@
+[Sat Jun 24 09:20:30 EDT 2017] INFO (OpenGG): Loading native libraries...
+[Sat Jun 24 09:20:30 EDT 2017] INFO (OpenGG): LWJGL has been loaded
+[Sat Jun 24 09:20:30 EDT 2017] INFO (OpenGG): OpenGG initializing, running on Windows 7, amd64
+[Sat Jun 24 09:20:31 EDT 2017] INFO (OpenGG): Window generation successful, using OpenGL context version 4.1
+[Sat Jun 24 09:20:31 EDT 2017] INFO (ShaderController): Default shaders loaded and validated
+[Sat Jun 24 09:20:31 EDT 2017] INFO (ModelLoader): Loading model at C:\Users\Warren\Documents\NetBeansProjects\Simon's Quest\dist\resources\models\default\default.bmf...
+[Sat Jun 24 09:20:31 EDT 2017] WARNING (ModelLoader): Failed to load model at C:\Users\Warren\Documents\NetBeansProjects\Simon's Quest\dist\resources\models\default\default.bmf, using default model instead
+[Sat Jun 24 09:20:31 EDT 2017] INFO (OpenGG): Render engine initialized
+[Sat Jun 24 09:20:31 EDT 2017] INFO (OpenGG): Audio controller initialized
+[Sat Jun 24 09:20:31 EDT 2017] INFO (OpenGG): Application setup beginning
+[Sat Jun 24 09:20:31 EDT 2017] INFO (OpenGG): Application setup complete
+[Sat Jun 24 09:20:40 EDT 2017] INFO (OpenGG): Render engine has finalized
+[Sat Jun 24 09:20:40 EDT 2017] INFO (OpenGG): Audio controller has been finalized
+[Sat Jun 24 09:20:40 EDT 2017] INFO (OpenGG): Thread Manager has closed all remaining threads
+[Sat Jun 24 09:20:40 EDT 2017] INFO (OpenGG): OpenGG has closed gracefully, application can now be ended
+

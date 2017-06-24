@@ -1,0 +1,39 @@
+[Sat Jun 24 09:18:48 EDT 2017] INFO (OpenGG): Loading native libraries...
+[Sat Jun 24 09:18:48 EDT 2017] INFO (OpenGG): LWJGL has been loaded
+[Sat Jun 24 09:18:48 EDT 2017] INFO (OpenGG): OpenGG initializing, running on Windows 7, amd64
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Window generation successful, using OpenGL context version 4.1
+[Sat Jun 24 09:18:49 EDT 2017] INFO (ShaderController): Default shaders loaded and validated
+[Sat Jun 24 09:18:49 EDT 2017] INFO (ModelLoader): Loading model at C:\Users\Warren\Documents\NetBeansProjects\Simon's Quest\dist\resources\models\default\default.bmf...
+[Sat Jun 24 09:18:49 EDT 2017] WARNING (ModelLoader): Failed to load model at C:\Users\Warren\Documents\NetBeansProjects\Simon's Quest\dist\resources\models\default\default.bmf, using default model instead
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Render engine initialized
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Audio controller initialized
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Application setup beginning
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Application setup complete
+[Sat Jun 24 09:18:49 EDT 2017] ERROR (OpenGG): Uncaught exception: null
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Render engine has finalized
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Audio controller has been finalized
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): Thread Manager has closed all remaining threads
+[Sat Jun 24 09:18:49 EDT 2017] INFO (OpenGG): OpenGG has closed gracefully, application can now be ended
+OpenGG Engine Version: 0.0.1a1
+
+System Information
+Operating System: Windows 7
+OS Architecture: amd64
+Processor: Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+CPU Count: 4
+
+Java Information
+Java Version: 1.8.0_92
+JVM Name: Java HotSpot(TM) 64-Bit Server VM
+JVM Vendor: Oracle Corporation
+Maximum Runtime Memory: 1888485376
+Used Runtime Memory: 128974848
+Free Runtime Memory: 126240256
+JVM CPU Availability: 4
+
+Engine Information
+
+OpenGL Information
+GL Version: 4.1
+GL Initialization: Initialized successfully
+
