@@ -12,11 +12,14 @@ import com.opengg.core.render.texture.Texture;
  * @author Warren
  */
 public class Item {
-
+    public static final int GENERIC = 0, WEAPON = 1, ARMOR = 2, CONSUMABLE = 3;
+    
+    public int type = GENERIC;
     public String name;
     public Texture displaytexture;
 
     public Item(String name, Texture displaytexture) {
+        this.type = type;
         this.name = name;
         this.displaytexture = displaytexture;
     }

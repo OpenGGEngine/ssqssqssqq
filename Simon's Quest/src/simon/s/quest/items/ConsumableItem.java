@@ -17,9 +17,11 @@ public class ConsumableItem extends Item{
     public ConsumableItem(String name, Texture displaytexture,int health) {
         super(name, displaytexture);
         this.healthbonus = health;
+        this.type = CONSUMABLE;
     }
     public ConsumableItem(ConsumableItem i){
          super(i.name, i.displaytexture);
         this.healthbonus = i.healthbonus;
+        this.type = CONSUMABLE;
     }
 }

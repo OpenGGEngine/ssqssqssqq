@@ -17,11 +17,13 @@ public class Weapon extends Item{
     public Weapon(String name, Texture displaytexture,int att) {
         super(name, displaytexture);
         this.attack = att;
+        this.type = WEAPON;
     }
     
     public Weapon(Weapon w){
         super(w.name, w.displaytexture);
         this.attack = w.attack;
+        this.type = WEAPON;
     }
     
 }

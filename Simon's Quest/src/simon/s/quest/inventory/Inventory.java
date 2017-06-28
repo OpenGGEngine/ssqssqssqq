@@ -16,7 +16,7 @@ import simon.s.quest.items.Weapon;
  * @author Warren
  */
 public class Inventory {
-
+    
     public ArrayList<Item> keyitems = new ArrayList<>();
     public ArrayList<Armor> armor = new ArrayList<>();
     public ArrayList<Weapon> weapons = new ArrayList<>();

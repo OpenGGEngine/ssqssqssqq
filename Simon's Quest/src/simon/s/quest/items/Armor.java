@@ -20,12 +20,14 @@ public class Armor extends Item {
         super(name, displaytexture);
         this.attackboost = att;
         this.defenseboost = def;
+        this.type = ARMOR;
     }
     
     public Armor(Armor a){
         super(a.name, a.displaytexture);
         this.attackboost = a.attackboost;
         this.defenseboost = a.defenseboost;
+        this.type = ARMOR;
     }
 
 }
