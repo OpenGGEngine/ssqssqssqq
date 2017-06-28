@@ -5,10 +5,20 @@
  */
 package simon.s.quest;
 
+import simon.s.quest.inventory.Inventory;
+
 /**
  *
  * @author Warren
  */
 public class Player {
+
+    public static Inventory inv = new Inventory();
+
+    public static int health;
+
+    public static double cash;
+
+    public static int level;
     
 }

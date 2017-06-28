@@ -15,12 +15,13 @@ import com.opengg.core.render.window.WindowInfo;
 import com.opengg.core.render.window.WindowOptions;
 import static com.opengg.core.render.window.WindowOptions.GLFW;
 import com.opengg.core.world.Skybox;
+import simon.s.quest.items.ItemBeanFactory;
 
 /**
  *
  * @author Warren
  */
-public class SimonSQuest extends GGApplication{
+public class SimonSQuest extends GGApplication {
 
     /**
      * @param args the command line arguments
@@ -36,17 +37,18 @@ public class SimonSQuest extends GGApplication{
         w.vsync = true;
         OpenGG.initialize(new SimonSQuest(), w);
     }
-
+    
     @Override
     public void setup() {
-         RenderEngine.setSkybox(new Skybox(Cubemap.get(Resource.getTexturePath("skybox\\majestic")), 1500f)); 
+        Player.inv.addItem(ItemBeanFactory.createItem("goldensimon"));
+        RenderEngine.setSkybox(new Skybox(Cubemap.get(Resource.getTexturePath("skybox\\majestic")), 1500f));        
     }
-
+    
     @Override
     public void render() {
         ShaderController.setPerspective(90, OpenGG.window.getRatio(), 0.2f, 3000f);
     }
-
+    
     @Override
     public void update() {
         
