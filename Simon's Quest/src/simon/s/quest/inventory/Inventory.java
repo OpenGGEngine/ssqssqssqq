@@ -25,12 +25,44 @@ public class Inventory {
     public void addItem(Item i) {
         if (i != null) {
             if (i instanceof Armor) {
-                armor.add((Armor) i);
+                Armor temp = findItem(armor,(Armor)i);
+                if(temp == null){
+                    i.quantity = 1;
+                    armor.add((Armor)i);
+                }else{
+                    temp.quantity+=1;
+                }
             } else if (i instanceof Weapon) {
-                weapons.add((Weapon) i);
+                Weapon temp = findItem(weapons,(Weapon)i);
+                if(temp == null){
+                    i.quantity = 1;
+                    weapons.add((Weapon)i);
+                }else{
+                    temp.quantity+=1;
+                }
             } else if (i instanceof ConsumableItem) {
-                consumables.add((ConsumableItem) i);
+                ConsumableItem temp = findItem(consumables,(ConsumableItem)i);
+                if(temp == null){
+                    i.quantity = 1;
+                    consumables.add((ConsumableItem)i);
+                }else{
+                    temp.quantity+=1;
+                }
             }
         }
     }
+    public static <E extends Item> E findItem(ArrayList<E> list,E i){
+        for(E item: list){
+             if(((E)item).equals((E)i)){
+                return item;
+            }
+        }
+        return null;
+    }
+    
+    public void remove(Item i){
+        
+    }
+    
+    
 }

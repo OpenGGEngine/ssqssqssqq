@@ -43,11 +43,11 @@ public class MessageBox {
     public static void update() {
         
         if (currentmessage != null && currenttextpointer <currentmessage.length() ) {
-            currenttextpointer+=0.4;
+            currenttextpointer+=0.55;
             message.setText(currentmessage.substring(0, (int)currenttextpointer));
         }
         if(message.text.getNumberOfLines()>4){
-            message.setPositionOffset(new Vector2f(0.2f,(message.text.getNumberOfLines()-4) * 0.048f));
+            message.setPositionOffset(new Vector2f(0.2f,(message.text.getNumberOfLines()-4) * 0.0483f));
         }
     }
 }

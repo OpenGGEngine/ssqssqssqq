@@ -24,4 +24,20 @@ public class ConsumableItem extends Item{
         this.healthbonus = i.healthbonus;
         this.type = CONSUMABLE;
     }
+
+
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        final ConsumableItem other = (ConsumableItem) obj;
+        if ((this.healthbonus != other.healthbonus) || (!this.name.equals(other.name))) {
+            return false;
+        }
+        return true;
+    }
+    
+    
 }

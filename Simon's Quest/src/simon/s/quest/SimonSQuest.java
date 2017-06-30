@@ -48,12 +48,15 @@ public class SimonSQuest extends GGApplication {
         ItemBeanFactory.init();
         Player.inv.addItem(ItemBeanFactory.createItem("goldensimon"));
         Player.inv.addItem(ItemBeanFactory.createItem("armor"));
-        Player.inv.addItem(ItemBeanFactory.createItem("armorwan"));
+        Player.inv.addItem(ItemBeanFactory.createItem("armor"));
+        Player.inv.addItem(ItemBeanFactory.createItem("armor"));
+        Player.inv.addItem(ItemBeanFactory.createItem("armor2"));
         
         System.out.println("Key: "+Player.inv.keyitems.size());
         System.out.println("Armor: "+Player.inv.armor.size());
         System.out.println("Weapon: "+Player.inv.weapons.size());
         System.out.println("Con: "+Player.inv.consumables.size());
+        System.out.println(Player.inv.armor.get(0).quantity);
         GUIMaster.init();
         MessageBox.init();
         

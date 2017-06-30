@@ -17,6 +17,7 @@ public class Item {
     public int type = GENERIC;
     public String name;
     public Texture displaytexture;
+    public int quantity;
 
     public Item(String name, Texture displaytexture) {
         this.type = type;
@@ -28,4 +29,6 @@ public class Item {
         this.name = i.name;
         this.displaytexture = i.displaytexture;
     }
+    
+
 }
