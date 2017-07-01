@@ -19,8 +19,10 @@ public class ItemBeanFactory {
     public static HashMap<String,Armor> armortemplate = new HashMap<>();
     
     
-    public void init(){
+    public static void init(){
         templates.put("goldensimon", new Item("Golden Simon",null));
+        armortemplate.put("armor", new Armor("Armor",null,1,1));
+        armortemplate.put("armor2", new Armor("Armor2",null,1,1));
     }
             
     public static Item createItem(String name){
